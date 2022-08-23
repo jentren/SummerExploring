@@ -1,0 +1,202 @@
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+}
+
+
+input{
+  outline: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.head-logo{
+	height: 94px;
+	width: auto;
+}
+
+/*asd*/
+
+.head-nav{
+	margin-top: 10px;
+}
+
+.nav-item{
+	display: inline-block;
+	margin-left: 60px;
+	font-weight: bold;
+
+}
+
+header{
+	background-image: url(../img/cont1-bg.png), url(../img/cont1-bg-blur.jpg	);
+  	background-position: center ,center ;
+  	background-repeat: no-repeat, no-repeat;
+  	background-size: auto auto , cover;
+	height:auto ; 
+}
+
+header .nav-search img{
+	height: 24px;
+	margin-left: -90px;
+}
+header .nav-search button{
+	border: none;
+	background: none;
+}
+
+header .nav-search input{
+	width: 180px;
+	border: none;
+	height: 50px;
+	background: rgba(207, 205, 205, 0.47);
+	border-radius: 25px;
+	padding-left: 20px;
+	padding-right: 55px;
+}
+header .nav-item a{
+	color: #54524f;
+}
+
+/*asd*/
+
+.header-title{
+	margin-top: 150px;
+}
+
+.title h1{
+	font-family: 'Open Sans', sans-serif;
+  font-size: 80px;
+  color: #deb37e;
+  line-height: 1.2;
+  text-align: left;
+  text-shadow: 0px 5px 5px rgba(84, 82, 79, 0.22);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.header-title .title p{
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	color: #54524f;
+	letter-spacing: 5px;
+}
+
+.header-more{
+	margin-top: 70px;
+}
+
+.header-more button{
+	width: 220px;
+	height: 50px;
+	border: none;
+	border-radius: 18px;
+	background: #fefefd;
+	font-size: 25px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #776c64;
+}
+/*
+*{
+	border: 1px solid red;
+}
+*/
+.header-more p{
+	font-style: italic;
+	font-size: 15px;
+	color:#54524f ;
+	margin-top: 25px;
+
+}
+
+.shape1{
+	width: 100%;
+	height: 150px;
+	background: url(../img/shape-top.png);
+}
+
+.cont2{margin-top: 50px;}
+
+.asd h2{
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #deb37e;
+}
+
+.asd p{
+	font-size:22px ;
+	color: #7f7770;
+}
+
+.cont2 .block{
+	height: auto;
+	background: #7f7770;
+	padding: 0;
+}
+
+.my-button{
+	width: 220px;
+	height: 50px;
+	border: none;
+	border-radius: 18px;
+	font-size: 25px;
+	font-weight: 900;
+	 
+	 
+}
+
+.cont2 .block img{
+	width: 100%;
+	height: 380px;
+}
+
+.cont2 .block h4{
+	width: 100%;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 50px;
+	font-size: 30px;
+	color: #fff;
+	font-weight: 800;
+
+}
+.cont2 .block p{
+	 width: 100%;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	color: #fff;
+}
+.second{
+	background: url(../img/shadow-left.png) no-repeat left bottom;
+}
+
+.second button{
+	margin-top: 50px;
+	background: #7f7770;
+	color:  white;
+}
+
+
+
+@media screen and (max-width: 991px) {
+   .cont2 .block{
+   	margin-bottom: 130px
+   }
+
+   header .nav-search input{
+   	width: 500px;
+   }
+
+}
